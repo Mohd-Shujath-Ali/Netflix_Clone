@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 6px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.red-btn {
+    background-color: red;
+    border: none;
+}
+
+.white-btn {
+    background-color: rgba(61, 60, 60, 0.334);
+    border-color: white;
+    right: 16px;
+    ;
+    padding: 6px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav img {
+    width: 128px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.main {
+    background-image: url(IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 8px;
+
+}
+
+.hed {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.hedd {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.heddd {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.hero-buttons {
+    display: flex;
+
+
+}
+
+.hero-buttons input {
+    margin: 0;
+    border: none;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: #151010d0;
+    width: 360px;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px 12px 10px 22px;
+
+
+}
+
+.hero-buttons button {
+
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left: 6px;
+
+}
+
+.seperation {
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+
+
+}
+
+.first {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    max-height: 70vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+
+}
+
+
+.first :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.first :nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.player {
+    position: relative;
+
+}
+
+.player video {
+    position: absolute;
+    top: 99px;
+    right: 88px;
+
+
+}
+
+.first1 {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    max-height: 70vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    max-width: 70vw;
+
+}
+
+.first1 :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.first1 :nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+.player1 {
+    position: relative;
+
+}
+
+.player1 video {
+    position: absolute;
+    right: 146px;
+    top: 53px;
+}
+
+.qna h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 12px;
+    padding-top: 64px;
+}
+
+.faq {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.faq button {
+    margin: auto;
+    text-align: start;
+    padding: 32px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 70vw;
+    padding-bottom: 32px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width:720px) {
+
+    nav {
+        max-width: 60vw;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding-bottom: 36px;
+
+    }
+
+    .hed {
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+
+    }
+
+    .hedd {
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+
+    }
+
+    .heddd {
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-buttons button {
+        font-size: 16px;
+        padding: 10px;
+        width: 240px;
+
+        right: 20px;
+    }
+
+    .hero-buttons input {
+        width: 290px;
+
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .first :nth-child(1) {
+        font-size: 1.8rem;
+        font-weight: 700;
+
+    }
+
+    .first :nth-child(2) {
+        font-size: 1rem;
+        font-weight: 300;
+
+    }
+
+    .player {
+        position: relative;
+
+    }
+
+    .player video {
+        position: absolute;
+        top: 99px;
+        right: 88px;
+
+
+    }
+
+    .first1 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .first1 :nth-child(1) {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .first1 :nth-child(2) {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+
+    .player1 {
+        position: relative;
+
+    }
+
+    .player1 video {
+        position: absolute;
+        right: 146px;
+        top: 53px;
+    }
+
+    .qna h2 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        font-weight: 900;
+        padding: 12px;
+        padding-top: 64px;
+        max-width: 80vw;
+    }
+
+    .faq {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+
+
+
+}
